@@ -20,7 +20,7 @@ public class MyToys {
         } else if (n == 0) {
             return 1;
         } else {
-            long product = 2; //biến nhân dồn, accumulation
+            long product = 1; //biến nhân dồn, accumulation
             for (int i = 1; i <= n; i++) {
                 product *= i;
             }
